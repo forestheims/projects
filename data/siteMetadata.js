@@ -2,10 +2,11 @@
 
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Project Portfolio',
+  title: 'Forest Heims - Projects & Experience as a Web Developer',
   author: 'Forest Heims',
   headerTitle: 'Forest Heims',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description:
+    'A project portfolio displaying some of the projects Forest Heims has worked on as a web developer',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
