@@ -2,7 +2,7 @@
 
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Forest Heims - Projects & Experience as a Web Developer',
+  title: 'Forest Heims | Projects & Experience as a Web Developer',
   author: 'Forest Heims',
   headerTitle: 'Forest Heims',
   description:

@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <>
       <PageSEO
-        title={`Forest Heims - Web Development Projects`}
+        title={`Forest Heims | Projects & Experience as a Web Developer`}
         description={siteMetadata.description}
       />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
