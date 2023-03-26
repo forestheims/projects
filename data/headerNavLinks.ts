@@ -1,7 +1,7 @@
 const headerNavLinks = [
   { href: 'https://forestheims.net', title: 'Home' },
   { href: 'https://forestheims.dev', title: 'Blog' },
-  { href: 'https://forestheims.org', title: 'Projects' },
+  { href: '/', title: 'Projects' },
   { href: 'https://forestheims.com', title: 'Contact' },
 ]
 
