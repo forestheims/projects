@@ -56,8 +56,8 @@ const CommonSEO = ({
       <Script
         async
         defer
-        src="https://analytics.umami.is/script.js"
-        data-website-id="31824b12-2659-4ef2-a4b9-42fc2b1a4cc5"
+        data-website-id={process.env.DATA_WEBSITE_ID}
+        src={process.env.UMAMI_SRC}
       />
     </>
   )
