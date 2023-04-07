@@ -11,14 +11,14 @@ const CustomLink = ({
 
   if (isInternalLink) {
     // @ts-ignore
-    return <Link href={href} {...rest} />
+    return <Link href={href} {...rest} referrerPolicy="origin" />
   }
 
   if (isAnchorLink) {
-    return <a href={href} {...rest} />
+    return <a href={href} {...rest} referrerPolicy="origin" />
   }
 
-  return <a href={href} {...rest} />
+  return <a href={href} {...rest} referrerPolicy="origin" />
 }
 
 export default CustomLink
